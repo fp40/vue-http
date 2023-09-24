@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input{
+    width: 350px;
+    height: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.titles{
+    font-weight: bold;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0D6EFD;
+    color: white;
+    border: none;
+    transition: 0.5s;
+    width: 100px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #084fbb;
+}
+
+select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.5s;
+    width: 370px;
+    margin-bottom: 10px;
+}
